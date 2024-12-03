@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard | Tic Tac Toe</title>
+    <link rel="shortcut icon" href="TicTacToe.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/NewStyle.css">
+    <script src="JS/Hardplayer.js" defer></script>
+</head>
+<body>
+
+    <audio id="click" src="sounds/box-click.mp3"></audio>
+    <audio id="drawSound" src="sounds/draw.mp3"></audio>
+    <audio id="winSound" src="sounds/wining.mp3"></audio>
+    <audio id="newgamesound" src="sounds/new-game.mp3"></audio>
+
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button class="btn" id="new-btn">New Game</button>
+    </div>
+    <main>
+        <div class="header">
+            <h1>Tic Tac Toe</h1>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <p class="draw hide">It's a Draw!!!</p>
+        <div class="btns">
+            <button class="btn" id="reset-btn">Reset Game</button>
+            <button class="btn" id="backBtn">Back</button>
+        </div>
+    </main>
+</body>
+</html>
